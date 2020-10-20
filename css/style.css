@@ -1,0 +1,33 @@
+.back {
+	width: 100%;
+	height: 100%;
+	background: #1d161e;
+}
+.candle {
+	width: 100%; position: relative; 
+}
+
+.grid{
+	width: 33.3%;height: 20%; float: left;margin-top: 25%;
+	display: grid; grid-column: 33.3% 33.3% 33.3%;
+}
+
+.textgrid{
+	width: 20%;height: 20%; float: left;
+	display: grid; grid-column: 20% 20% 20% 20% 20%;
+}
+
+h1 {color: #d8c860; text-align: center;font-family: 'Amatic SC', cursive; font-size: 14pt;}
+h2 {color: #d8c860; text-align: center;font-family: 'Amatic SC', cursive; font-size: 30pt;}
+
+@-webkit-keyframes can {
+	0% {margin-top: 0px;}
+	50%{margin-top: 10px}
+	100%{margin-top: 0px;}
+}
+
+@-webkit-keyframes dle {
+	0% {margin-top: 10px;}
+	50%{margin-top: 0px}
+	100%{margin-top: 10px;}
+}
